@@ -1,30 +1,17 @@
 ---
-title: Support Chinatown
-subtitle: >-
-  covid-19 has impacted small businesses in the Chinatown community. They Need
-  Your Help
+title: '#SupportChinatown'
+subtitle: COVID-19 has massively impacted the Chinatown community.
 image: img/header.jpg
 blurb:
-  heading: 'Covid-19 slowed down trade '
-  text: businesses didnt stop operating
+  heading: '#DineInChinatown'
+  text: 'Show your support for these businesses to eat at '
 intro:
-  heading: Money
-  text: Rent and more
+  heading: '#ShopInChinatown'
+  text: 'Show your '
 products:
-  - image: img/illustrations-coffee.svg
-    text: >-
-      We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We’re proud to offer a variety
-      of coffee beans grown with great care for the environment and local
-      communities. Check our post or contact us directly for current
-      availability.
-  - image: /img/illustrations-coffee-gear.svg
-    text: >-
-      We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you’ll find a gadget to
-      fall in love with in our shop.
+  - text: 'The Good Deal Card '
+    image: img/og-image.jpg
 values:
-  heading: Support
-  text: 'Here are some ways to support '
+  heading: '#SupportChinatown'
+  text: Find small ways to get involved
 ---
