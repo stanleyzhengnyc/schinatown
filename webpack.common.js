@@ -6,6 +6,9 @@ const AssetsPlugin = require("assets-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  performance: {
+    hints: process.env.NODE_ENV === 'production' ? "warning" : false
+  },
   entry: {
     main: path.join(__dirname, "src", "index.js"),
     cms: path.join(__dirname, "src", "js", "cms.js"),
