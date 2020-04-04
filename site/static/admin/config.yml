@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
 markup:
-  renderer:
-    hardWraps: false
-    unsafe: true
+  goldmark:
+    renderer:
+      unsafe: true
 media_folder: "site/static/img" # Folder where user uploaded files should go
 media_library:
   name: uploadcare
