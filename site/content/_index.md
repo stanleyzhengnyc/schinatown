@@ -5,27 +5,17 @@ image: img/header.jpg
 blurb:
   heading: '#DineInChinatown'
   text: >-
-    Show your support for these businesses to eat at businesses currently open.
+    Show your support for these businesses to ordering takeout and delivery at
+    businesses currently open via phone or internet. Check out our Airtable list
+    for Manhattan Chinatown Businesses here.
 
-    <html>
 
-
-    <iframe class="airtable-embed"
-    src="https://airtable.com/embed/shrHnwJcyTgBEgy1w?backgroundColor=cyan&layout=card&viewControls=on"
-    frameborder="0" onmousewheel="" width="100%" height="533" style="background:
-    transparent; border: 1px solid #ccc;"></iframe>
-
-    </html> 
+    https://supportchinatown.com/post/restaurants-open-in-chinatown-during-covid-19/
 intro:
   heading: '#ShopInChinatown'
-  text: >-
-    Shop for groceries and goods in chinatown
-
-
-    <iframe class="airtable-embed"
-    src="https://airtable.com/embed/shrplv7oJixXEvZr8?backgroundColor=orange&viewControls=on"
-    frameborder="0" onmousewheel="" width="100%" height="533" style="background:
-    transparent; border: 1px solid #ccc;"></iframe>
+  text: |-
+    Shop for groceries and goods in Chinatown
+    https://supportchinatown.com/post/shop-pharmacies-in-chinatown/
 products:
   - text: 'The Good Deal Card '
     image: img/og-image.jpg
@@ -35,8 +25,5 @@ values:
     Find pharmacies in Chinatown that are still open. 
 
 
-    <iframe class="airtable-embed"
-    src="https://airtable.com/embed/shrplv7oJixXEvZr8?backgroundColor=orange&viewControls=on"
-    frameborder="0" onmousewheel="" width="100%" height="533" style="background:
-    transparent; border: 1px solid #ccc;"></iframe>
+    https://supportchinatown.com/post/pharmacies-open-in-chinatown-during-covid-19/
 ---
