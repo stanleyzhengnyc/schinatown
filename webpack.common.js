@@ -10,7 +10,9 @@ module.exports = {
     main: path.join(__dirname, "src", "index.js"),
     cms: path.join(__dirname, "src", "js", "cms.js"),
   },
-
+  performance: {
+    hints: process.env.NODE_ENV === 'production' ? "warning" : false
+  },
   output: {
     path: path.join(__dirname, "dist")
   },
