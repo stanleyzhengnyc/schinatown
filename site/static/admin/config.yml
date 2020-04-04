@@ -5,6 +5,10 @@ markup:
     hardWraps: false
     unsafe: true
 media_folder: "site/static/img" # Folder where user uploaded files should go
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 455bd7e3e87874b6ca50
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
