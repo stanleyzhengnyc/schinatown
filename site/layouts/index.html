@@ -1,12 +1,16 @@
 {{ define "main" }}
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+<!-- 
+{{ partial "short-text" .Params.blurb}} -->
+<!-- 
+{{ partial "2-up" .Params }} -->
 
-{{ partial "short-text" .Params.blurb}}
+{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Go to Map" "buttonLink" "/post/chinatown-new-york-map/") }}
 
-{{ partial "2-up" .Params }}
+{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Go to Chart" "buttonLink" "/post") }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Latest Efforts" "buttonLink" "/post") }}
 
 {{ partial "blog" . }}
 
