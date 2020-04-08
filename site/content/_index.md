@@ -1,15 +1,23 @@
 ---
+values:
+  heading: '#SupportChinatown'
+  text: >-
+    Find pharmacies in Chinatown that are still open. 
+
+
+    https://supportchinatown.com/post/pharmacies-open-in-chinatown-during-covid-19/
+products:
+  - text: 'The Good Deal Card '
+    image: img/og-image.jpg
+  - image: 'https://ucarecdn.com/3f23ee0b-ca2f-40f3-9600-b42589509b68/'
+    text: |
+      Chinatown Ice Cream Factory
 title: '#SupportChinatown'
 subtitle: COVID-19 has massively impacted the Chinatown community.
 image: img/header.jpg
-blurb:
-  heading: Many different groups are showing Chinatown NYC Love.
-  text: |
-    From the institutional groups to the new nonprofit group
-    - http://www.chinatownpartnership.org/
-    - https://www.sendchinatownlove.com/
-    - http://welcometochinatown.com/
-    - https://www.dumplingsagainsthate.com/
+live:
+  image: 'https://ucarecdn.com/b9ed8854-ecea-420d-824f-9cc9f90e1a0c/'
+  text: '#SupportVendors'
 intro:
   heading: '#ShopInChinatown'
   text: >
@@ -22,17 +30,18 @@ intro:
 
     https://supportchinatown.com/post/shop-pharmacies-in-chinatown/
   image: 'https://ucarecdn.com/84907eee-f3d3-4b4a-94b6-42d5086cb586/'
-products:
-  - text: 'The Good Deal Card '
-    image: img/og-image.jpg
-  - image: 'https://ucarecdn.com/3f23ee0b-ca2f-40f3-9600-b42589509b68/'
-    text: |
-      Chinatown Ice Cream Factory
-values:
-  heading: '#SupportChinatown'
-  text: >-
-    Find pharmacies in Chinatown that are still open. 
-
-
-    https://supportchinatown.com/post/pharmacies-open-in-chinatown-during-covid-19/
+blurb:
+  heading: Many different groups are showing Chinatown NYC Love.
+  text: |
+    From the institutional groups to the new nonprofit group
+    - http://www.chinatownpartnership.org/
+    - https://www.sendchinatownlove.com/
+    - http://welcometochinatown.com/
+    - https://www.dumplingsagainsthate.com/
+dine:
+  image: 'https://ucarecdn.com/f28dbf81-ff8e-4f03-913f-da3b68f91e58/'
+  text: '#DineInChinatown'
+shop:
+  image: 'https://ucarecdn.com/427ff737-8610-4448-9805-bfa0fbf56f9c/'
+  text: '#ShopInChinatown'
 ---
