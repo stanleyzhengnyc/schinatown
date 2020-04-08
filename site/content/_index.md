@@ -13,15 +13,15 @@ blurb:
 intro:
   heading: '#ShopInChinatown'
   text: >
-    #DineInChinatown
+    #ShopInChinatown
 
-    Show your support for these businesses to ordering takeout and delivery at
-    businesses currently open via phone or internet. Check out our Airtable list
-    for Manhattan Chinatown Businesses here.
+    Show your support for these businesses to ordering groceries at these follow
+    groceries stores. Check out our Airtable list for Manhattan Chinatown
+    Businesses here.
 
 
-    https://supportchinatown.com/post/restaurants-open-in-chinatown-during-covid-19/
-  image: 'https://ucarecdn.com/dba6dbfd-da07-4dc7-9d20-0f321d7185f2/'
+    https://supportchinatown.com/post/shop-pharmacies-in-chinatown/
+  image: 'https://ucarecdn.com/84907eee-f3d3-4b4a-94b6-42d5086cb586/'
 products:
   - text: 'The Good Deal Card '
     image: img/og-image.jpg
