@@ -3,8 +3,6 @@ values:
   heading: '#SupportChinatown'
   text: >-
     Find pharmacies in Chinatown that are still open. 
-
-
     https://supportchinatown.com/post/pharmacies-open-in-chinatown-during-covid-19/
 products:
   - text: 'The Good Deal Card '
@@ -53,4 +51,5 @@ shop:
   text: '#ShopInChinatown'
   image2: 'https://ucarecdn.com/911652fc-97ae-4768-8575-e7a9a2bec58b/'
   text3: '#ShopInChinatown'
+  
 ---

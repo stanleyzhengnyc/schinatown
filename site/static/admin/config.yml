@@ -35,21 +35,15 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Dine", name: "dine", widget: object, fields: [
-             {label: "Image1", name: "image1", widget: "image"},
-              {label: "Text1", name: "text1", widget: "text"}]}
-          - {label: "Shop", name: "shop", widget: object, fields: [
-             {label: "Image2", name: "image2", widget: "image"},
-              {label: "Text2", name: "text3", widget: "text"}]}
-          - {label: "Live", name: "live", widget: object, fields: [
-             {label: "Image3", name: "image3", widget: "image"},
-              {label: "Text3", name: "text3", widget: "text"}]}
-          # - {label: "Products", name: products, widget: list, fields: [
-          #     {label: "Image", name: "image", widget: "image"},
-          #     {label: "Text", name: "text", widget: "text"}]}
-          # - {label: "Values", name: "values", widget: "object", fields: [
-          #     {label: "Heading", name: "heading", widget: string},
-          #     {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Intro", name: intro, widget: object, fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Products", name: products, widget: list, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Values", name: "values", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
