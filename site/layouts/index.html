@@ -2,16 +2,22 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
+
+<!-- {{ printf "%#v" .Params }} -->
+
+{{ partial "text-and-image" (dict "heading" .Params.map.heading "image" .Params.dine.image  "text" .Params.map.text "buttonText" "Go to Map" "buttonLink" "/post/chinatown-new-york-map/") }}
+
+{{ partial "text-and-image" (dict "heading" .Params.dine.heading  "image" .Params.dine.image "text" .Params.dine.text "buttonText" "Eat in Chinatown" "buttonLink" .Params.dine.buttonLink) }}
+
+{{ partial "text-and-image" (dict "heading" .Params.shop.heading  "image" .Params.shop.image "text" .Params.shop.text "buttonText" "Shop in Chinatown" "buttonLink" .Params.shop.buttonLink ) }}
+
+{{ partial "text-and-image" (dict "heading" .Params.live.heading  "image" .Params.live.image "text" .Params.live.text "buttonText" "Shop in Chinatown" "buttonLink" .Params.live.buttonLink ) }}
+
+
+<!-- Short Text  -->
 {{ partial "short-text" .Params.blurb}} 
 
-{{ partial "2-up" .Params }} 
+{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "See Latests News" "buttonLink" "/post") }} -->
 
-{{ printf "%#v" .Params }}
-
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Go to Map" "buttonLink" "/post/chinatown-new-york-map/") }}
-
-{{ partial "text-and-image" (dict "dine" .Params.values.heading "text" .Params.values.text "buttonText" "Go to Chart" "buttonLink" "/post") }}
-<!-- 
-{{ partial "text-and-image" (dict "live" .Params.values.heading "text" .Params.values.text "buttonText" "Latest Efforts" "buttonLink" "/post") }} -->
 
 {{ end }} 
