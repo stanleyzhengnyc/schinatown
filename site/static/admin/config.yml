@@ -51,7 +51,7 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Heading", name: "heading", widget: string },
                   { label: "Text", name: "text", widget: "text" },
                   { label: "Image", name: "image", widget: "image"},
-                  { label: "buttonLink", name: "text", widget: "text" },
+                  { label: "buttonLink", name: "buttonLink", widget: "text" },
                 ],
             }
           - {
@@ -63,7 +63,7 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Heading", name: "heading", widget: string },
                   { label: "Text", name: "text", widget: "text" },
                   { label: "Image", name: "image", widget: "image"},
-                  { label: "buttonLink", name: "text", widget: "text" },
+                  { label: "buttonLink", name: "buttonLink", widget: "text" },
                 ],
             }
           - {
@@ -75,7 +75,7 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Heading", name: "heading", widget: string },
                   { label: "Text", name: "text", widget: "text" },
                   { label: "Image", name: "image", widget: "image"},
-                  { label: "buttonLink", name: "text", widget: "text" },
+                  { label: "buttonLink", name: "buttonLink", widget: "text" },
                 ],
             }
           - {
@@ -87,7 +87,7 @@ collections: # A list of collections the CMS should be able to edit
                   { label: "Heading", name: "heading", widget: string },
                   { label: "Text", name: "text", widget: "text" },
                   { label: "Image", name: "image", widget: "image"},
-                  { label: "buttonLink", name: "text", widget: "text" },
+                  { label: "buttonLink", name: "buttonLink", widget: "text" },
                 ],
             }
       - file: "site/content/contact/_index.md"
