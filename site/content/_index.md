@@ -17,7 +17,7 @@ map:
     Show your support for these businesses to  ordering takeout. Check out our Airtable list for Manhattan Chinatown
     Restaurants open below and 
     eat from Chinatown 
-  buttonLink: "post/chinatown-new-york-map/"
+  buttonLink: "/post/chinatown-new-york-map"
 dine:
   heading: "#DineInChinatown"
   image: 'https://ucarecdn.com/f28dbf81-ff8e-4f03-913f-da3b68f91e58/'
@@ -32,12 +32,10 @@ dine:
 shop:
   heading: '#ShopInChinatown'
   text: >
-    #ShopInChinatown
 
     Show your support for these businesses to ordering groceries at these follow
     groceries stores. Check out our Airtable list for Manhattan Chinatown
     Businesses here.
-    https://supportchinatown.com/post/shop-pharmacies-in-chinatown/
   image: 'https://ucarecdn.com/427ff737-8610-4448-9805-bfa0fbf56f9c/'
   buttonLink: "/post/shop-pharmacies-in-chinatown/"
 
