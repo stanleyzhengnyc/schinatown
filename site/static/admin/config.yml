@@ -43,33 +43,51 @@ collections: # A list of collections the CMS should be able to edit
                 ],
             }
           - {
-              label: "Intro",
-              name: intro,
+              label: "Map",
+              name: map,
               widget: object,
               fields:
                 [
                   { label: "Heading", name: "heading", widget: string },
                   { label: "Text", name: "text", widget: "text" },
+                  { label: "Image", name: "image", widget: "image"},
+                  { label: "buttonLink", name: "text", widget: "text" },
                 ],
             }
           - {
-              label: "Products",
-              name: products,
-              widget: list,
-              fields:
-                [
-                  { label: "Image", name: "image", widget: "image" },
-                  { label: "Text", name: "text", widget: "text" },
-                ],
-            }
-          - {
-              label: "Values",
-              name: "values",
-              widget: "object",
+              label: "Dine",
+              name: dine,
+              widget: object,
               fields:
                 [
                   { label: "Heading", name: "heading", widget: string },
                   { label: "Text", name: "text", widget: "text" },
+                  { label: "Image", name: "image", widget: "image"},
+                  { label: "buttonLink", name: "text", widget: "text" },
+                ],
+            }
+          - {
+              label: "Shop",
+              name: shop,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Text", name: "text", widget: "text" },
+                  { label: "Image", name: "image", widget: "image"},
+                  { label: "buttonLink", name: "text", widget: "text" },
+                ],
+            }
+          - {
+              label: "Live",
+              name: live,
+              widget: object,
+              fields:
+                [
+                  { label: "Heading", name: "heading", widget: string },
+                  { label: "Text", name: "text", widget: "text" },
+                  { label: "Image", name: "image", widget: "image"},
+                  { label: "buttonLink", name: "text", widget: "text" },
                 ],
             }
       - file: "site/content/contact/_index.md"

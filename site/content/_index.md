@@ -18,7 +18,6 @@ map:
     Restaurants open below and 
     eat from Chinatown 
   buttonLink: "post/chinatown-new-york-map/"
-  image: ''
 dine:
   heading: "#DineInChinatown"
   image: 'https://ucarecdn.com/f28dbf81-ff8e-4f03-913f-da3b68f91e58/'
