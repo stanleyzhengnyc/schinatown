@@ -6,10 +6,10 @@ blurb:
   heading: Many different groups are showing Chinatown NYC Love.
   text: | 
     From the institutional groups to the new nonprofit group
-    - http://www.chinatownpartnership.org/
-    - https://www.sendchinatownlove.com/
-    - http://welcometochinatown.com/
-    - https://www.dumplingsagainsthate.com/
+    http://www.chinatownpartnership.org/
+    https://www.sendchinatownlove.com/
+    http://welcometochinatown.com/
+    https://www.dumplingsagainsthate.com/
 map:
   heading: "#FindInChinatown"
   image: 'https://ucarecdn.com/bc7818b8-c4f3-4523-8dc9-789b9d666a34/ScreenShot20200418at92230PM.png'
