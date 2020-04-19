@@ -33,7 +33,7 @@ shop:
     Show your support for small and local businesses by shopping  at these following  stores. Check out our Airtable list for Manhattan Chinatown
     Businesses here.
   image: 'https://ucarecdn.com/6ea4b665-eaaf-4257-8016-17de848ceab4/IMG_20200305_122958_1.jpg'
-  buttonLink: "/grocery-stores-and-shops-open-in-chinatown-during-covid-19"
+  buttonLink: "/post/grocery-stores-and-shops-open-in-chinatown-during-covid-19/"
 
 live:
   image: 'https://ucarecdn.com/ae03b63d-38da-4dd1-ad21-c476a313dd70/pharm.jpg'
